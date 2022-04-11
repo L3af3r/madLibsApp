@@ -8,12 +8,13 @@ console.log(originalStory);
 
 let questionArray = ['Enter a name', 'Enter an animal', 'Enter an object', 'Enter a social event', 'Enter a place'];
 
-let numberOfQuestions = 6;
+let numberOfQuestions = 4;
 let questionCounter = 0;
 
 for(let i = numberOfQuestions; i >= 0; i--){
 	console.log(`i = ${i}`);
 	console.log(`questionCounter = ${questionCounter}`);
+	console.log(questionArray[questionCounter]);
 	questionCounter++;
 }
 
