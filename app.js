@@ -8,11 +8,13 @@ console.log(originalStory);
 
 let questionArray = ['Enter a name', 'Enter an animal', 'Enter an object', 'Enter a social event', 'Enter a place'];
 
-let numberOfQuestions = questionArray.lenght;
+let numberOfQuestions = 6;
+let questionCounter = 0;
 
 for(let i = numberOfQuestions; i >= 0; i--){
-	console.log(i);
-	
+	console.log(`i = ${i}`);
+	console.log(`questionCounter = ${questionCounter}`);
+	questionCounter++;
 }
 
 //let originalStory = `Timmie Willie is a country mouse who is accidentally taken to a city in a vegetable basket. When he wakes up, he finds himself at a party and makes a friend. When he is unable to bear (tolerate or experience) the city life, he returns to his home but invites his friend to the village. When his friend visits him, something similar happens.`
